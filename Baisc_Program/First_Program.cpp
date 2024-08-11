@@ -4,3 +4,6 @@ int main(){
     cout<<" First Program "<<endl;
  
 }
+
+// Output :
+// First Program
