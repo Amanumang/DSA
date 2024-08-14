@@ -8,12 +8,13 @@ int main(){
 
     int first_Number=0;
     int second_Number =1;
-    int fibo=0;
-    for(int i=0; i<=n ; i++){
-            fibo = first_Number + second_Number;
+   
+    for(int i=1; i<=n ; i++){
+           int next_number = first_Number + second_Number;
+             cout << next_number <<" ";
             first_Number = second_Number;
-            second_Number = fibo;
-            cout << fibo <<"\t";
+            second_Number = next_number;
+           
     }
    
 
