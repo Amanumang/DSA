@@ -8,7 +8,7 @@ int main(){
 
     int first_Number=0;
     int second_Number =1;
-   
+    cout << first_Number << " " << second_Number << " ";
     for(int i=1; i<=n ; i++){
            int next_number = first_Number + second_Number;
              cout << next_number <<" ";
@@ -24,6 +24,6 @@ int main(){
 /*
     Enter a number : 
     5
-    output : 1       2       3       5       8       13
+    output : 0     1      1       2       3       5       8       13
 
 */
